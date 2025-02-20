@@ -14,11 +14,10 @@ const person = {
 
 const newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  title: <>Learn & Grow with {person.firstName}</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+       I share insights on modern frameworks, best practices, and industry trends. Stay updated with tutorials, tips, and expert guidance to enhance your coding skills and build real-world projects.
     </>
   ),
 };
@@ -37,9 +36,9 @@ const social = [
     link: "https://www.linkedin.com/in/palwinder-singh-98775b221/",
   },
   {
-    name: "X",
-    icon: "x",
-    link: "",
+    name: "Instagram",
+    icon: "instagram",
+    link: "https://github.com/PalwinderSinghPaali",
   },
   {
     name: "Email",
@@ -97,19 +96,33 @@ const about = {
         role: "MERN/PERN Stack Developer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Independently spearheaded and successfully developed and deployed a large-scale database projects on servers, Chrome extensions that can handle Millions concurrent
+            users with minimal downtime.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Led teams in developing and implementing backend
+            processes, fostering collaboration and ensuring high-quality
+            deliverables. Handled regular client calls. Directed project
+            lifecycles from conception to deployment, mentoring team
+            members.
+          </>,
+          <>
+          Designed algorithms to generate and display custom trading
+          indicators on interactive charts, proficient in integrating Socket.IO,
+          Churnkey, Firebase, Rabbit MQ, Docker, Chat Bots, Stripe, Payment Gateways, Subscription etc.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            src: "/images/projects/project-01/TraderEdge-1.jpg",
+            alt: "TraderEdge",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/Nerddnest-1.jpg",
+            alt: "Nerddnest",
             width: 16,
             height: 9,
           },
@@ -121,12 +134,10 @@ const about = {
         role: "React Developer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Gained proficiency in React.js for building dynamic and responsive web applications.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Developed multiple live projects.
           </>,
         ],
         images: [],
@@ -160,37 +171,11 @@ const about = {
         languages:[
           "React JS", "Next.js", "Remix JS", "HTML", "CSS", "Tailwind CSS", "Electron JS"
         ],
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
       },
       {
         title: "Backend",
         languages:[
-          "Node JS", "Express JS", "Firebase", "Socket IO", "Redis"
-        ],
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          "Node JS", "Express JS", "Firebase", "Socket IO", "Redis", "Rabbit MQ"
         ],
       },
       {
@@ -198,31 +183,11 @@ const about = {
         languages:[
           "JavaScript", "TypeScript"
         ],
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
       },
       {
         title: "Databases",
         languages:[
           "PostgreSQL", "MySQL", "MongoDb", "Supabase"
-        ],
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
         ],
       },
       {
@@ -230,47 +195,17 @@ const about = {
         languages:[
           "GIT", "Docker", "AWS", "Nginx"
         ],
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
       },
       {
         title: "Payment Gateway",
         languages:[
           "Stripe"
         ],
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
       },
       {
         title: "Others",
         languages:[
           "Tanstack Query", "RTK Query"
-        ],
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
         ],
       },
     ],
@@ -300,72 +235,72 @@ const gallery = {
   // Images from https://pexels.com
   images: [
     {
-      src: "/images/gallery/img-01.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-02.jpg",
+      src: "/images/projects/project-01/TraderEdge-1.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-03.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-04.jpg",
+      src: "/images/projects/project-01/Nerddnest-1.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-05.jpg",
+      src: "/images/projects/project-01/Tekmart-1.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-06.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-07.jpg",
+      src: "/images/projects/project-01/Tracebale-1.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-08.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-09.jpg",
+      src: "/images/projects/project-01/MietWohl-1.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-10.jpg",
+      src: "/images/projects/project-01/Donkey-1.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-11.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-12.jpg",
+      src: "/images/projects/project-01/Tracerice-1.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-13.jpg",
+      src: "/images/projects/project-01/TraderEdge-1.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-14.jpg",
+      src: "/images/projects/project-01/Moawen-1.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/projects/project-01/10xTraders-1.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/projects/project-01/Tekmart-2.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/projects/project-01/Traderedge-ChromeExtension-1.avif",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/projects/project-01/Nerddnest-2.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/projects/project-01/Tekmart-3.jpg",
       alt: "image",
       orientation: "horizontal",
     },
@@ -377,6 +312,7 @@ const projects = [
     title: "TraderEdge",
     description: `TraderEdge is a backtesting and strategy analysis tool designed for traders to refine and test their trading strategies using historical market data.`,
     url: "https://traderedge.app/",
+    path: "/work/traderedge",
     // Images from https://pexels.com
     image: "/images/projects/project-01/TraderEdge-1.jpg",
   },
@@ -384,30 +320,57 @@ const projects = [
     title: "TraceBale",
     description: `TraceBale by CottonConnect is a digital traceability platform that tracks cotton and raw materials at key stages, enhancing supply chain transparency.`,
     url: "https://tracebale.com/",
-    // Images from https://pexels.com
+    path: "/work/tracebale",
     image: "/images/projects/project-01/Tracebale-1.jpg",
   },
   {
     title: "Donkey",
     description: `Donkey – the ultimate destination for global entertainment! Watch HD Movies & TV Shows online for Free!`,
     url: "https://donkey.to/",
-    // Images from https://pexels.com
+    path: "/work/donkey",
     image: "/images/projects/project-01/Donkey-1.jpg",
   },
   {
     title: "MietWohl",
     description: `At mietWohl, various tenants from all over Germany will answer your questions about whether the new environment and surroundings match your expectations of a new rental apartment. `,
     url: "http://212.132.98.168/home",
-    // Images from https://pexels.com
+    path: "/work/mietwohl",
     image: "/images/projects/project-01/Mietwohl-1.jpg",
   },
   {
     title: "TraderEdge(Chrome Extension)",
     description: `Trader Edge Chrome Extension is a powerful tool for backtesting and recording trading data. Designed to enhance the functionality of the TraderEdge backtesting software.`,
     url: "https://trader-edge.en.softonic.com/chrome/extension",
-    // Images from https://pexels.com
+    path: "/work/traderedge=extension",
     image: "/images/projects/project-01/Traderedge-ChromeExtension-1.avif",
   }  
 ]
 
-export { person, social, newsletter, home, about, blog, work, gallery, projects };
+const expertise = [
+  {
+    title: "React JS",
+    description: `React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript.`,
+    url: "https://react.dev/",
+    image: "/images/gallery/React.png",
+  },
+  {
+    title: "Next.js",
+    description: `Next.js is a React framework for building full-stack web applications. It enables server-side rendering, static site generation, and optimized performance.`,
+    url: "https://nextjs.org/",
+    image: "/images/gallery/nextjs.jpeg",
+  },
+  {
+    title: "Node JS",
+    description: `Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. A fast and scalable runtime for building backend applications using JavaScript.`,
+    url: "https://nodejs.org/en",
+    image: "/images/gallery/node.png",
+  },
+  {
+    title: "PostgreSQL",
+    description: `A powerful, robust, open-source relational database management system (RDBMS) known for its scalability, reliability, and advanced querying capabilities.`,
+    url: "https://www.postgresql.org/",
+    image: "/images/gallery/postgres.png",
+  } 
+]
+
+export { person, social, newsletter, home, about, blog, work, gallery, projects, expertise };

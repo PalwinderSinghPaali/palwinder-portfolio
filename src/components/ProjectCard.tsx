@@ -13,17 +13,17 @@ import {
 interface ProjectCardProps {
   href: string;
   priority?: boolean;
-  images: string[];
+  images: string;
   title: string;
-  content: string;
+  content?: string;
   description: string;
-  avatars: { src: string }[];
+  avatars?: { src: string }[];
   link: string;
 }
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({
   href,
-  images = [],
+  images = "",
   title,
   content,
   description,
@@ -34,10 +34,10 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
     <Column fillWidth gap="m">
       <Carousel
         sizes="(max-width: 960px) 100vw, 960px"
-        images={images.map((image) => ({
-          src: image,
+        images={[{
+          src: images,
           alt: title,
-        }))}
+        }]}
       />
       <Flex
         mobileDirection="column"
@@ -54,9 +54,8 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
             </Heading>
           </Flex>
         )}
-        {(avatars?.length > 0 || description?.trim() || content?.trim()) && (
+        {(description?.trim() || content?.trim()) && (
           <Column flex={7} gap="16">
-            {avatars?.length > 0 && <AvatarGroup avatars={avatars} size="m" reverse />}
             {description?.trim() && (
               <Text wrap="balance" variant="body-default-s" onBackground="neutral-weak">
                 {description}

@@ -26,8 +26,7 @@ export const Footer = () => {
         <Text variant="body-default-s" onBackground="neutral-strong">
           <Text onBackground="neutral-weak">© {currentYear} /</Text>
           <Text paddingX="4">{person.name}</Text>
-          <Text onBackground="neutral-weak">
-            {/* Usage of this template requires attribution. Please don't remove the link to Once UI. */}
+          {/* <Text onBackground="neutral-weak">
             / Build your portfolio with{" "}
             <SmartLink
               style={{ marginLeft: "-0.125rem" }}
@@ -35,7 +34,7 @@ export const Footer = () => {
             >
               Once UI
             </SmartLink>
-          </Text>
+          </Text> */}
         </Text>
         <Flex gap="16">
           {social.map(
