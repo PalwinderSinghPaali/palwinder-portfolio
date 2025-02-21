@@ -343,7 +343,14 @@ const projects = [
     url: "https://trader-edge.en.softonic.com/chrome/extension",
     path: "/work/traderedge=extension",
     image: "/images/projects/project-01/Traderedge-ChromeExtension-1.avif",
-  }  
+  },  
+  {
+    title: "10xTraders.AI",
+    description: "10xTraders AI helps you create AI-driven trading strategies to dominate the markets. Automate trading with ease using our advanced strategy builder.",
+    url: "https://10xtraders.ai/",
+    path: "/work/10x-traders",
+    image: "/images/projects/project-01/10xTraders-1.jpg",
+  }
 ]
 
 const expertise = [
