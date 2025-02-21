@@ -335,7 +335,7 @@ const projects = [
     description: `At mietWohl, various tenants from all over Germany will answer your questions about whether the new environment and surroundings match your expectations of a new rental apartment. `,
     url: "http://212.132.98.168/home",
     path: "/work/mietwohl",
-    image: "/images/projects/project-01/Mietwohl-1.jpg",
+    image: "/images/projects/project-01/MietWohl-1.jpg",
   },
   {
     title: "TraderEdge(Chrome Extension)",
@@ -370,7 +370,7 @@ const expertise = [
     title: "Node JS",
     description: `Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. A fast and scalable runtime for building backend applications using JavaScript.`,
     url: "https://nodejs.org/en",
-    image: "/images/gallery/node.png",
+    image: "/images/gallery/Node.png",
   },
   {
     title: "PostgreSQL",
