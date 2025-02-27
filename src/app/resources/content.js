@@ -38,7 +38,7 @@ const social = [
   {
     name: "Instagram",
     icon: "instagram",
-    link: "https://github.com/PalwinderSinghPaali",
+    link: "https://www.instagram.com/paali__palwinder_/",
   },
   {
     name: "Email",
@@ -72,7 +72,7 @@ const about = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
@@ -304,6 +304,11 @@ const gallery = {
       alt: "image",
       orientation: "horizontal",
     },
+    {
+      src: "/images/projects/project-01/Instantly-1.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
   ],
 };
 
@@ -338,6 +343,13 @@ const projects = [
     image: "/images/projects/project-01/MietWohl-1.jpg",
   },
   {
+    title: "10xTraders.AI",
+    description: "10xTraders AI helps you create AI-driven trading strategies to dominate the markets. Automate trading with ease using our advanced strategy builder.",
+    url: "https://10xtraders.ai/",
+    path: "/work/10x-traders",
+    image: "/images/projects/project-01/10xTraders-1.jpg",
+  },
+  {
     title: "TraderEdge(Chrome Extension)",
     description: `Trader Edge Chrome Extension is a powerful tool for backtesting and recording trading data. Designed to enhance the functionality of the TraderEdge backtesting software.`,
     url: "https://trader-edge.en.softonic.com/chrome/extension",
@@ -345,11 +357,32 @@ const projects = [
     image: "/images/projects/project-01/Traderedge-ChromeExtension-1.avif",
   },  
   {
-    title: "10xTraders.AI",
-    description: "10xTraders AI helps you create AI-driven trading strategies to dominate the markets. Automate trading with ease using our advanced strategy builder.",
-    url: "https://10xtraders.ai/",
-    path: "/work/10x-traders",
-    image: "/images/projects/project-01/10xTraders-1.jpg",
+    title: "NerddNest",
+    description: "NerddNest is a social media platform used for online game streaming like twitch. Here users can Add, Interact, Post with each others, can also create events etc.",
+    url: "",
+    path: "/work/nerddnest",
+    image: "/images/projects/project-01/Nerddnest-1.jpg",
+  },
+  {
+    title: "Instantly.ai",
+    description: "All-in-one cold outreach platform for business growth. Easily find, reach, and convert prospects with AI-powered automation, high deliverability, and a built-in lead database.",
+    url: "https://instantly.ai/",
+    path: "/work/instantly",
+    image: "/images/projects/project-01/Instantly-1.jpg",
+  },
+  {
+    title: "Tekmart",
+    description: "Tekmart is an application, used to create bots using different methods for TikTok. Which are used to increase reach, replies, messages etc.",
+    url: "",
+    path: "/work/tekmart",
+    image: "/images/projects/project-01/Tekmart-1.jpg",
+  },
+  {
+    title: "TraceRice",
+    description: "TraceRice by CottonConnect is a digital traceability platform that tracks rice and raw materials at key stages, enhancing supply chain transparency.",
+    url: "",
+    path: "/work/tracerice",
+    image: "/images/projects/project-01/Tracerice-1.jpg",
   }
 ]
 

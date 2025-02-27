@@ -1,7 +1,7 @@
 "use client";
 import { Column, Card, Line, SmartLink, Row, Flex, Text, Heading, SmartImage } from "@/once-ui/components";
 import { projects } from "@/app/resources/content";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname  } from "next/navigation";
 
 interface ProjectsProps {
   range?: [number, number?];
@@ -9,6 +9,7 @@ interface ProjectsProps {
 
 export function Projects({ range }: ProjectsProps) {
   const router = useRouter();
+  const pathname = usePathname();
 
   const displayedProjects = range
     ? projects.slice(range[0] - 1, range[1] ?? projects.length)
@@ -44,7 +45,8 @@ export function Projects({ range }: ProjectsProps) {
       </Flex>
 
       {/* View More Button */}
-      <Row fillWidth horizontal="end" paddingX="16">
+      {pathname === '/' && (      
+        <Row fillWidth horizontal="end" paddingX="16">
         <SmartLink
           suffixIcon="arrowRight"
           style={{ margin: "0", width: "fit-content" }}
@@ -53,6 +55,7 @@ export function Projects({ range }: ProjectsProps) {
           <Text variant="body-default-s">View More</Text>
         </SmartLink>
       </Row>
+      )}
     </Column>
   );
 }

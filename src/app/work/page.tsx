@@ -48,7 +48,7 @@ export default function Work() {
             headline: work.title,
             description: work.description,
             url: `https://${baseURL}/projects`,
-            image: `${baseURL}/og?title=Design%20Projects`,
+            image: `${baseURL}/og?title=FullStack%20Projects`,
             author: {
               "@type": "Person",
               name: person.name,

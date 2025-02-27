@@ -104,6 +104,7 @@ export default function Project({ params }: WorkParams) {
           Projects
         </Button>
         <Heading variant="display-strong-s">{post.metadata.title}</Heading>
+        {post.metadata.link && (
         <SmartLink
                   suffixIcon="arrowUpRightFromSquare"
                   style={{ margin: "0", width: "fit-content" }}
@@ -111,6 +112,7 @@ export default function Project({ params }: WorkParams) {
                 >
                   <Text variant="body-default-s">View project</Text>
                 </SmartLink>
+        )}
       </Column>
       {post.metadata.images.length > 0 && (
         <SmartImage
