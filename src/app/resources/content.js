@@ -80,8 +80,8 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Hi, I'm Palwinder Singh, a passionate MERN Stack Developer with 3+ years of experience in building scalable and high-performance web applications. 
-        I specialize in React, Next.js, NodeJS, JavaScript, TypeScript, MySQL, PostgreSQL, MongoDb, ElectronJS, Docker, AWS  and other modern web technologies, 
+        Hi, I'm Palwinder Singh, a passionate MERN Stack Developer with 4+ years of experience in building scalable and high-performance web applications. 
+        I specialize in React, NodeJS, Next.js, React Native, JavaScript, TypeScript, MySQL, PostgreSQL, MongoDb, ElectronJS, Docker, AWS  and other modern web technologies, 
         crafting seamless user experiences with clean, efficient code. I thrive on solving complex problems and creating interactive, visually stunning web solutions.
       </>
     ),
@@ -169,7 +169,7 @@ const about = {
       {
         title: "Frontend",
         languages:[
-          "React JS", "Next.js", "Remix JS", "HTML", "CSS", "Tailwind CSS", "Electron JS"
+          "React JS", "Next.js", "React Native", "Remix JS", "HTML", "CSS", "Tailwind CSS", "Electron JS"
         ],
       },
       {
@@ -193,19 +193,19 @@ const about = {
       {
         title: "Devops",
         languages:[
-          "GIT", "Docker", "AWS", "Nginx"
+          "GIT", "Docker", "AWS", "Nginx", "Apache"
         ],
       },
       {
         title: "Payment Gateway",
         languages:[
-          "Stripe"
+          "Stripe", "Paypal"
         ],
       },
       {
         title: "Others",
         languages:[
-          "Tanstack Query", "RTK Query"
+          "Tanstack Query", "RTK Query", "PayloadCMS"
         ],
       },
     ],
@@ -343,11 +343,32 @@ const projects = [
     image: "/images/projects/project-01/MietWohl-1.jpg",
   },
   {
+    title: "Aife - Art Is For Everyone",
+    description: `Discover unique artworks from talented artists. Browse our curated collection of contemporary art.`,
+    url: "https://aife.vercel.app/",
+    path: "/work/aife",
+    image: "/images/projects/project-01/aife-1.png",
+  },
+  {
+    title: "Imaginarium",
+    description: `Professional AI writing software with story development tools, character creation, and collaboration features. Trusted by professional creators.`,
+    url: "https://imaginarium.page/",
+    path: "/work/imaginarium",
+    image: "/images/projects/project-01/imaginarium-main-1.png",
+  },
+  {
     title: "10xTraders.AI",
     description: "10xTraders AI helps you create AI-driven trading strategies to dominate the markets. Automate trading with ease using our advanced strategy builder.",
     url: "https://10xtraders.ai/",
     path: "/work/10x-traders",
     image: "/images/projects/project-01/10xTraders-1.jpg",
+  },
+    {
+    title: "eSimPro",
+    description: `One-stop platform for hassle-free global connectivity. Explore a range of eSim data packages, ensuring seamless, secure connections for travelers worldwide. Stay connected effortlessly with eSim Pro.`,
+    url: "https://esim-pro.com/",
+    path: "/work/esimpro",
+    image: "/images/projects/project-01/eSimPro-1.png",
   },
   {
     title: "TraderEdge(Chrome Extension)",
