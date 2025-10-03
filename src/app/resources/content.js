@@ -336,6 +336,13 @@ const projects = [
     image: "/images/projects/project-01/Donkey-1.jpg",
   },
   {
+    title: "Imaginarium",
+    description: `Professional AI writing software with story development tools, character creation, and collaboration features. Trusted by professional creators.`,
+    url: "https://imaginarium.page/",
+    path: "/work/imaginarium",
+    image: "/images/projects/project-01/imaginarium-main-1.png",
+  },
+  {
     title: "MietWohl",
     description: `At mietWohl, various tenants from all over Germany will answer your questions about whether the new environment and surroundings match your expectations of a new rental apartment. `,
     url: "http://212.132.98.168/home",
@@ -348,13 +355,6 @@ const projects = [
     url: "https://aife.vercel.app/",
     path: "/work/aife",
     image: "/images/projects/project-01/aife-1.png",
-  },
-  {
-    title: "Imaginarium",
-    description: `Professional AI writing software with story development tools, character creation, and collaboration features. Trusted by professional creators.`,
-    url: "https://imaginarium.page/",
-    path: "/work/imaginarium",
-    image: "/images/projects/project-01/imaginarium-main-1.png",
   },
   {
     title: "10xTraders.AI",
