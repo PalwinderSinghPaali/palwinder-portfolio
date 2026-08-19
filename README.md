@@ -4,7 +4,7 @@ Personal portfolio website showcasing my experience, technical skills, projects,
 
 The portfolio is built with **Next.js, TypeScript, React, and Once UI**, with a focus on clean design, responsive layouts, performance, SEO, and presenting real-world software engineering experience.
 
-🌐 **Live Portfolio:** https://palwinder-portfolio.vercel.app
+🌐 **Live Portfolio:** https://palwinder.vercel.app
 
 ## 👨‍💻 About Me
 
