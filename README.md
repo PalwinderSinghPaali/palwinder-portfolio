@@ -1,89 +1,188 @@
-# **Build your portfolio with Once UI's Magic Portfolio**
+# Palwinder Singh — Full Stack Developer Portfolio
 
-View the [demo here](https://demo.magic-portfolio.com).
+Personal portfolio website showcasing my experience, technical skills, projects, and work as a **Full Stack Developer**.
 
-![Magic Portfolio](public/images/cover.png)
+The portfolio is built with **Next.js, TypeScript, React, and Once UI**, with a focus on clean design, responsive layouts, performance, SEO, and presenting real-world software engineering experience.
 
+🌐 **Live Portfolio:** https://palwinder-portfolio.vercel.app
 
-# **Getting started**
+## 👨‍💻 About Me
 
-Magic Portfolio was built with [Once UI](https://once-ui.com) for [Next.js](https://nextjs.org). It requires Node.js v18.17+.
+I'm a Full Stack Developer focused on building **scalable web applications, SaaS platforms, backend systems, integrations, and AI-powered applications**.
 
-**1. Clone the repository**
+My primary stack includes:
+
+* TypeScript
+* React
+* Next.js
+* Node.js
+* Express
+* PostgreSQL
+* MongoDB
+* MySQL
+
+I also work with technologies and services including:
+
+* AWS
+* Docker
+* Stripe
+* Supabase
+* Firebase
+* RabbitMQ
+* OpenAI
+* LangChain
+* LangGraph
+
+## 🚀 What You'll Find
+
+The portfolio brings together:
+
+* Professional experience
+* Selected software projects
+* Technical skills
+* AI/LLM experiments
+* Full Stack development work
+* Backend and API development
+* Articles and technical content
+* Contact and social profiles
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React
+* Next.js
+* TypeScript
+* HTML5
+* CSS
+* Responsive UI
+
+### Backend
+
+* Node.js
+* Express
+* REST APIs
+* PostgreSQL
+* MongoDB
+* MySQL
+* Sequelize
+
+### Cloud & Infrastructure
+
+* AWS
+* Vercel
+* Docker
+* Supabase
+* Firebase
+
+### Integrations & Services
+
+* Stripe
+* Payment Gateways
+* RabbitMQ
+* OpenAI
+* LangChain
+* LangGraph
+
+## 🧠 AI & LLM Projects
+
+The portfolio also highlights my work exploring modern AI application architectures, including:
+
+* OpenAI integrations
+* AI agents
+* LangChain
+* LangGraph
+* Database-aware AI applications
+* Tool calling
+* Structured AI outputs
+* AI-powered automation
+
+## 🎯 Engineering Focus
+
+I enjoy working on problems involving:
+
+```text
+Frontend Architecture
+        ↓
+API & Backend Design
+        ↓
+Database Architecture
+        ↓
+Third-Party Integrations
+        ↓
+Cloud Infrastructure
+        ↓
+AI / Automation
 ```
-git clone https://github.com/once-ui-system/magic-portfolio.git
+
+My goal is to build applications that are not only functional, but also **maintainable, scalable, and production-ready**.
+
+## 📦 Project Structure
+
+The application follows a Next.js-based structure with content and configuration separated from the UI layer.
+
+```text
+src/
+├── app/
+│   ├── about/
+│   ├── blog/
+│   ├── work/
+│   └── ...
+│
+├── resources/
+│   ├── content/
+│   └── config/
+│
+└── ...
 ```
 
-**2. Install dependencies**
-```
+## ⚡ Running Locally
+
+### Requirements
+
+* Node.js 18.17+
+* npm
+
+### Installation
+
+```bash
+git clone https://github.com/PalwinderSinghPaali/palwinder-portfolio.git
+
+cd palwinder-portfolio
+
 npm install
-```
 
-**3. Run dev server**
-```
 npm run dev
 ```
 
-**4. Edit config**
-```
-src/app/resources/config
-```
+The application will be available at:
 
-**5. Edit content**
-```
-src/app/resources/content
+```text
+http://localhost:3000
 ```
 
-**6. Create blog posts / projects**
-```
-Add a new .mdx file to src/app/blog/posts or src/app/work/projects
-```
+## 🌐 Deployment
 
-# **Features**
+The portfolio is deployed using **Vercel**.
 
-## **Once UI**
-- All tokens, components & features of [Once UI](https://once-ui.com)
+Live website:
 
-## **SEO**
-- Automatic open-graph and X image generation with next/og
-- Automatic schema and metadata generation based on the content file
+**https://palwinder.vercel.app**
 
-## **Design**
-- Responsive layout optimized for all screen sizes
-- Timeless design without heavy animations and motion
-- Endless customization options through [data attributes](https://once-ui.com/docs/theming)
+## 🙏 Credits
 
-## **Content**
-- Render sections conditionally based on the content file
-- Enable or disable pages for blog, work, gallery and about / CV
-- Generate and display social links automatically
-- Set up password protection for URLs
+The portfolio UI is built using the **Magic Portfolio / Once UI** framework.
 
-## **Localization**
-- A localized version of Magic Portfolio is available with the next-intl library
-- To use localization, switch to the 'i18n' branch
+The original framework provides the underlying portfolio structure, UI system, responsive design, SEO capabilities, and content-driven architecture. The project has been customized with my own content, projects, experience, configuration, and branding.
 
-# **Authors**
+## 📄 License
 
-Connect with us on Threads or LinkedIn.
+This project retains the licensing terms of the underlying Magic Portfolio project.
 
-Lorant Toth: [Threads](https://www.threads.net/@lorant.one), [LinkedIn](https://www.linkedin.com/in/tothlorant/)  
-Zsofia Komaromi: [Threads](https://www.threads.net/@zsofia_kom), [LinkedIn](https://www.linkedin.com/in/zsofiakomaromi/)
+---
 
-Localization added by [François Hernandez](https://github.com/francoishernandez)
+### Connect With Me
 
-# **Get involved**
+**GitHub:** https://github.com/PalwinderSinghPaali
 
-- Join the [Design Engineers Club on Discord](https://discord.com/invite/5EyAQ4eNdS) and share your portfolio with us!
-- Report a [bug](https://github.com/once-ui-system/magic-portfolio/issues/new?labels=bug&template=bug_report.md).
-
-# **License**
-
-Distributed under the CC BY-NC 4.0 License.
-- Commercial usage is not allowed.
-- Attribution is required.
-
-See `LICENSE.txt` for more information.
-
-# **Deploy with Vercel**
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&project-name=portfolio&repository-name=portfolio&redirect-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&demo-title=Magic%20Portfolio&demo-description=Showcase%20your%20designers%20or%20developer%20portfolio&demo-url=https%3A%2F%2Fdemo.magic-portfolio.com&demo-image=%2F%2Fraw.githubusercontent.com%2Fonce-ui-system%2Fmagic-portfolio%2Fmain%2Fpublic%2Fimages%2Fcover.png)
+**Portfolio:** https://palwinder-portfolio.vercel.app
