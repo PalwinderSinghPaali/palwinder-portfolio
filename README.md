@@ -185,4 +185,4 @@ This project retains the licensing terms of the underlying Magic Portfolio proje
 
 **GitHub:** https://github.com/PalwinderSinghPaali
 
-**Portfolio:** https://palwinder-portfolio.vercel.app
+**Portfolio:** https://palwinder.vercel.app
