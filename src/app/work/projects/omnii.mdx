@@ -1,0 +1,40 @@
+---
+title: "Omnii (Proposal Automation)"
+publishedAt: "2026-08-27"
+summary: "Omnii is an automated proposal generation platform for fire protection services. It dynamically retrieves and compiles modular Word documents (CVs, experiences, scopes, and methodologies) into unified client proposals while using AI to auto-fill fields from uploaded documents."
+images:
+  - "/images/projects/project-01/Omnii_1.png"
+  - "/images/projects/project-01/Omnii_2.png"
+  - "/images/projects/project-01/Omnii_3.png"
+  - "/images/projects/project-01/Omnii_4.png"
+team:
+  - name: "Palwinder Singh"
+    role: "Full Stack Developer"
+    avatar: "/images/Palwinder-1.jpg"
+    linkedIn: "https://www.linkedin.com/in/palwinder-singh-98775b221/"
+link: "https://fire-fee-forge.lovable.app/"
+---
+
+## Overview
+
+Omnii Proposal Automation is a specialized document assembly and intelligence platform built to automate the complex, manual process of proposal generation for fire protection services. Instead of manually copy-pasting client proposal elements, users can select input fields to dynamically aggregate and compile modular pieces of content—such as engineer CVs, previous project experience, scope descriptions, and methodologies—into a single, professionally styled Word document. 
+
+The application also features an AI-powered extraction pipeline that allows users to upload source files (PDFs, Word documents, or PowerPoint presentations) and automatically extract key parameters to auto-populate the proposal input fields.
+
+## Key Features
+
+- **Dynamic Document Compilation**: Implemented a document assembly engine that retrieves specific segments (engineered methodologies, CV profiles, and scope of work blocks) based on user selections and compiles them into a unified `.docx` output.
+- **AI-Powered Field Extraction**: Developed a backend integration using LLMs to parse uploaded PDF, Word, and PowerPoint files, extracting key project metrics and automatically filling out corresponding proposal fields.
+- **Interactive Proposal Configurator**: Built a comprehensive multi-step form dashboard showing proposal variables, costing, scopes, and team assignments, referenced in [`Omnii_4.png`](/images/projects/project-01/Omnii_4.png).
+- **Asset Library & Management**: Created a modular database repository where team leads can upload and update CV templates, experience sheets, and standard methodology clauses.
+
+## Technologies Used
+
+- **React & Tailwind CSS**: Used to create a modern, responsive administrative configuration panel with clear, intuitive steps.
+- **Node.js**: Powers the backend document processing engine, handling file merging, layout compliance, and styling uniformity.
+- **AI Integration**: Leveraged document processing libraries and AI model APIs to parse structured and unstructured user uploads.
+- **Vercel Serverless Functions**: Hosts serverless APIs for rapid, scalable processing of incoming proposal generation requests.
+
+## Challenges and Learnings
+
+One of the primary challenges was maintaining consistent document typography, margins, page breaks, and heading structures when merging multiple distinct Word files into a single master template. This was solved by using strict document schemas, resetting styles on insertion, and writing custom parser utilities to normalize XML blocks inside the zip wrapper of `.docx` files before outputting the final file.

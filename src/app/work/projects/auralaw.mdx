@@ -1,0 +1,41 @@
+---
+title: "AuraLaw"
+publishedAt: "2026-08-27"
+summary: "AuraLaw is a modern social discovery platform centered around Events and Tribes, designed to help users discover, connect, and interact with people based on mutual interest. The platform focuses on user profiles, profile discovery, matching, and social interaction, providing an engaging swipe-based experience for finding potential connections."
+images:
+  - "/images/projects/project-01/Auralaw_1.png"
+  - "/images/projects/project-01/Auralaw_2.png"
+  - "/images/projects/project-01/Auralaw_3.png"
+  - "/images/projects/project-01/Auralaw_4.png"
+  - "/images/projects/project-01/Auralaw_5.png"
+  - "/images/projects/project-01/Auralaw_6.png"
+team:
+  - name: "Palwinder Singh"
+    role: "Full Stack Developer"
+    avatar: "/images/Palwinder-1.jpg"
+    linkedIn: "https://www.linkedin.com/in/palwinder-singh-98775b221/"
+link: "https://auralaw.com/"
+---
+
+## Overview
+
+AuraLaw is a modern social discovery platform designed to foster meaningful human connections centered around events and tribes. The platform enables users to discover, align, and interact with like-minded individuals through mutual interests. Built as both a web application and a cross-platform mobile application, AuraLaw features user profile customization, interactive community "Tribes," event coordination, and a swipe-based matching flow for discovering connections.
+
+## Key Features
+
+- **Swipe-Based Social Discovery**: Designed a responsive card-swiping user experience for profiles, allowing users to find connections based on shared interests.
+- **Tribes & Interest-Based Groups**: Built community hubs ("Tribes") where users can associate themselves with micro-communities and view upcoming events.
+- **Event Orchestration & Discovery**: Created tools for users to organize, list, and join physical or virtual events, linking attendee profiles for pre-event networking.
+- **Cross-Platform Mobile App (Capacitor)**: Ported the core web application to iOS and Android platforms using Ionic Capacitor, maintaining a single responsive codebase.
+- **Real-Time Database & Presence (Supabase)**: Leveraged Supabase's real-time subscriptions for instantaneous social interactions, matching notifications, and profile status updates.
+
+## Technologies Used
+
+- **React & Next.js**: Used for building a highly reactive front-end interface optimized for rendering image-heavy cards.
+- **Supabase**: Powering database storage, row-level security (RLS), real-time tables, and user authentication.
+- **Vercel Serverless Functions**: Handled backend business logic, validation layers, and external integrations asynchronously.
+- **Capacitor**: Packaged the React application to run natively on mobile platforms, enabling hardware integration and fast web views.
+
+## Challenges and Learnings
+
+One of the main challenges was optimizing the swipe layout for lower-end mobile devices to ensure the card animations remained smooth. This required minimizing component re-renders, pre-fetching image assets in the queue, and offloading presence calculations to Supabase's lightweight real-time channel APIs.

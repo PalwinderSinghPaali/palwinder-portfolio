@@ -235,6 +235,11 @@ const gallery = {
   // Images from https://pexels.com
   images: [
     {
+      src: "/images/projects/project-01/Auralaw_1.png",
+      alt: "AuraLaw Platform",
+      orientation: "horizontal",
+    },
+    {
       src: "/images/projects/project-01/TraderEdge-1.jpg",
       alt: "image",
       orientation: "horizontal",
@@ -247,6 +252,16 @@ const gallery = {
     {
       src: "/images/projects/project-01/Tekmart-1.jpg",
       alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/projects/project-01/Omnii_3.png",
+      alt: "Omnii Fire Proposal Interface",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/projects/project-01/Omnii_4.png",
+      alt: "Omnii Fire Proposal Interface",
       orientation: "horizontal",
     },
     {
@@ -314,6 +329,13 @@ const gallery = {
 
 const projects = [
   {
+    title: "AuraLaw",
+    description: `AuraLaw is a modern social discovery platform centered around Events and Tribes, designed to help users discover, connect, and interact based on mutual interest.`,
+    url: "https://auralaw.com/",
+    path: "/work/auralaw",
+    image: "/images/projects/project-01/Auralaw_1.png",
+  },
+  {
     title: "TraderEdge",
     description: `TraderEdge is a backtesting and strategy analysis tool designed for traders to refine and test their trading strategies using historical market data.`,
     url: "https://traderedge.app/",
@@ -355,6 +377,13 @@ const projects = [
     url: "https://aife.vercel.app/",
     path: "/work/aife",
     image: "/images/projects/project-01/aife-1.png",
+  },
+   {
+    title: "Omnii FPS",
+    description: `Omnii is a document assembly platform for fire protection services that compiles modular Word files into unified proposals and uses AI to extract metadata.`,
+    url: "https://fire-fee-forge.lovable.app/",
+    path: "/work/omnii",
+    image: "/images/projects/project-01/Omnii_3.png",
   },
   {
     title: "10xTraders.AI",
