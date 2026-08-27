@@ -7,33 +7,36 @@ images:
   - "/images/projects/project-01/Tracebale-1.jpg"
 team:
   - name: "Palwinder Singh"
-    role: "Software Engineer"
+    role: "Full Stack Developer"
     avatar: "/images/Palwinder-1.jpg"
-    linkedIn: "https://github.com/PalwinderSinghPaali"
+    linkedIn: "https://www.linkedin.com/in/palwinder-singh-98775b221/"
 link: "https://tracebale.com/"
 ---
 
 ## Overview
 
-This project is long ongoing project which was created from scratch to focus on working with brands and retailers to help them address the challenges of complex, remote supply and to map their supply chains effectively at each critical stage, from farm group level to finished product, supporting greater transparency and traceability at key stages of the supply chain. 
+TraceBale by CottonConnect is a comprehensive digital traceability platform designed to help brands and retailers map their supply chains effectively. By tracking cotton and other raw materials from farm group level to the finished product, TraceBale strengthens supply chain resilience and ensures near real-time transparency at each critical stage.
+
+The platform has been enhanced with advanced capabilities, including AI-driven document mapping, geolocational sales tracking, physical stock verification, and custom anomaly reporting.
 
 ## Key Features
 
-- **Real-Time Data Capture**: Provides near real-time data analytics and visualization dashboards, enabling brands to make informed and timely business decisions.
-- **Reports Generations**: Provides real-time generated reports of each level along with graphical representation of data.
-- **End-to-End Visibility**: TraceBale offers comprehensive tracking of cotton and raw materials from farm groups to finished products, ensuring transparency at every stage of the textile supply chain.
-- **Hybrid Traceability Model**: Combines digital data tracking with physical DNA markers, allowing brands to trace products both digitally and physically across key supply chain stages.
-- **Effective Onboarding & Support**: Provides an easy onboarding process, in-depth platform training, and a ticketing escalation matrix to connect users with the TraceBale team. 
-- **Role Management**: Great user experience at each level of roles along with role privileges for each menu.
+- **AI Invoice Mapping & Data Extraction**: Leverages AI models to parse invoices, receipts, and shipping manifests, automatically mapping transaction data and reducing manual entry errors.
+- **Physical Stock Verification**: Integrates physical verification checkpoints to cross-reference digital logs with actual warehouse inventory levels, resolving discrepancies.
+- **Anomaly Detection & Graph Reports**: Uses analytical models to highlight data inconsistencies (e.g. weight mismatch, transaction loops) and renders them in visual dashboards and exportable reports.
+- **Geo-Tracking for Sales**: Implemented location-based tracking for sales and shipments, enabling stakeholders to audit raw material movement and detect unauthorized diversion.
+- **Pre-Lint Order Functionality**: Manages raw cotton orders and lint requirements prior to ginning, optimizing supply allocation for spinner mills.
+- **Real-Time Data Capture**: Provides live traceability data feeds and interactive visualizations to let brands monitor compliance and material flows.
+- **Role Privileges & Access Control**: Robust multi-tenant dashboard with defined role hierarchies for Farmers, Ginners, Spinners, Weavers, and Brands.
 
 ## Technologies Used
 
-- **React and Next.js**: For building the front-end codebase with clean, reusable components.
-- **Node JS**: Powered the backend with a scalable and efficient runtime for handling requests.
-- **PostgreSQL**: Used as the primary database for storing and querying trade data efficiently.
-- **AWS**: Provided scalable cloud infrastructure for hosting, storage, and deployment.
-- **GitHub Actions**: For automating the pipeline and syncing design changes to the repository.
+- **React & Next.js**: Built clean, modular user interfaces for diverse global stakeholders.
+- **Node.js (Express)**: Scales backend operations, transaction validation, and batch processing.
+- **PostgreSQL**: Stores relational transactional logs and historical traceability datasets.
+- **AWS Services**: Utilizes Amazon S3 for invoice document storage and secure EC2/RDS instances for cloud scaling.
+- **AI/LLM Pipelines**: Used for parsing document layout and mapping values into structured databases.
 
 ## Challenges and Learnings
 
-One of the biggest challenges was managing data flow across multiple entities (Farmers, Ginners, Spinners, Weavers, Brands) while ensuring accuracy. So, overcome those challenges by using leveraging indexed queries and caching significantly improved data retrieval speeds.
+Scaling the transaction verification pipeline across multiple cross-border entities required optimizing complex SQL joins and designing reliable background task runners. Offloading heavy analytical calculations (such as anomaly graphs) to asynchronous query views and implementing Redis caching significantly reduced dashboard loading times under heavy usage.

@@ -54,7 +54,7 @@ const home = {
   headline: <>Full Stack Developer</>,
   subline: (
     <>
-      I'm Palwinder Singh, a Full Stack Developer at <InlineCode>Contriverz</InlineCode>, where I craft seamless and interactive user experiences. 
+      I&apos;m Palwinder Singh, a Full Stack Developer at <InlineCode>Contriverz</InlineCode>, where I craft seamless and interactive user experiences. 
       Specialize in building high-performance, scalable web applications.
     </>
   ),
@@ -80,7 +80,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Hi, I'm Palwinder Singh, a passionate MERN Stack Developer with 4+ years of experience in building scalable and high-performance web applications. 
+        Hi, I&apos;m Palwinder Singh, a passionate MERN Stack Developer with 4+ years of experience in building scalable and high-performance web applications. 
         I specialize in React, NodeJS, Next.js, React Native, JavaScript, TypeScript, MySQL, PostgreSQL, MongoDb, ElectronJS, Docker, AWS  and other modern web technologies, 
         crafting seamless user experiences with clean, efficient code. I thrive on solving complex problems and creating interactive, visually stunning web solutions.
       </>
@@ -337,7 +337,7 @@ const projects = [
   },
   {
     title: "TraceBale",
-    description: `TraceBale by CottonConnect is a digital traceability platform that tracks cotton and raw materials at key stages, enhancing supply chain transparency.`,
+    description: `TraceBale by CottonConnect is a digital traceability platform that tracks cotton and raw materials at key stages, enhancing supply chain transparency. It offers near real-time data capture and farm-level traceability to strengthen supply chain resilience in the textile sector.`,
     url: "https://tracebale.com/",
     path: "/work/tracebale",
     image: "/images/projects/project-01/Tracebale-1.jpg",
