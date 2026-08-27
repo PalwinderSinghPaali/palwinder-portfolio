@@ -1,5 +1,26 @@
 import { InlineCode } from "@/once-ui/components";
 
+const getExperienceYears = () => {
+  const startDate = new Date("2022-03-01"); // Start date: March 2022
+  const currentDate = new Date();
+  const diffTime = Math.abs(currentDate - startDate);
+  const diffYears = diffTime / (1000 * 60 * 60 * 24 * 365.25);
+  const years = Math.floor(diffYears);
+  const decimal = parseFloat((diffYears - years).toFixed(1));
+  
+  if (decimal < 0.3) {
+    return `${years}+`;
+  } else if (decimal < 0.5) {
+    return `${years}.3`;
+  } else if (decimal < 0.7) {
+    return `${years}.5+`;
+  } else if (decimal < 0.9) {
+    return `${years}.9`;
+  } else {
+    return `${years + 1}+`;
+  }
+};
+
 const person = {
   firstName: "Palwinder",
   lastName: "Singh",
@@ -80,7 +101,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Hi, I&apos;m Palwinder Singh, a passionate MERN Stack Developer with 4+ years of experience in building scalable and high-performance web applications. 
+        Hi, I&apos;m Palwinder Singh, a passionate Full Stack Developer with {getExperienceYears()} years of experience in building scalable and high-performance web applications. 
         I specialize in React, NodeJS, Next.js, React Native, JavaScript, TypeScript, MySQL, PostgreSQL, MongoDb, ElectronJS, Docker, AWS  and other modern web technologies, 
         crafting seamless user experiences with clean, efficient code. I thrive on solving complex problems and creating interactive, visually stunning web solutions.
       </>
@@ -93,24 +114,40 @@ const about = {
       {
         company: "Contriverz",
         timeframe: "Oct 2022 - Present",
-        role: "MERN/PERN Stack Developer",
+        role: "Full Stack Developer",
         achievements: [
           <>
-            Independently spearheaded and successfully developed and deployed a large-scale database projects on servers, Chrome extensions that can handle Millions concurrent
-            users with minimal downtime.
+            Owned end-to-end development of scalable applications used by 1M+
+            users, ensuring high availability and reliability (99.9% uptime)
           </>,
           <>
-            Led teams in developing and implementing backend
-            processes, fostering collaboration and ensuring high-quality
-            deliverables. Handled regular client calls. Directed project
-            lifecycles from conception to deployment, mentoring team
-            members.
+            Identified performance bottlenecks in backend services and reduced
+            API latency by 35–40%, improving user experience
           </>,
           <>
-          Designed algorithms to generate and display custom trading
-          indicators on interactive charts, proficient in integrating Socket.IO,
-          Churnkey, Firebase, Rabbit MQ, Docker, Chat Bots, Stripe, Payment Gateways, Subscription etc.
+            Designed and implemented real-time systems using Socket.io and
+            RabbitMQ to support low-latency communication at scale
           </>,
+          <>
+            Delivered Chrome extensions used by thousands of users, expanding
+            product reach and usability
+          </>,
+          <>
+            Drove integration of AI/LLM solutions using LangChain, automating
+            workflows and increasing efficiency by 50%
+          </>,
+          <>
+            Led a team of 4+ engineers, taking ownership of architecture decisions,
+            code reviews, and delivery timelines
+          </>,
+          <>
+            Implemented secure payment and subscription systems using Stripe,
+            enabling recurring revenue streams
+          </>,
+          <>
+            Improved deployment reliability by containerizing applications with
+            Docker and managing cloud infrastructure on AWS
+          </>
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
@@ -166,6 +203,12 @@ const about = {
     display: true, // set to false to hide this section
     title: "Technical Skills",
     skills: [
+      {
+        title: "AI & LLMs",
+        languages:[
+          "LLMs", "AI Agents", "LangChain", "LangGraph", "Vector Databases", "RAG"
+        ],
+      },
       {
         title: "Frontend",
         languages:[
@@ -337,7 +380,7 @@ const projects = [
   },
   {
     title: "TraceBale",
-    description: `TraceBale by CottonConnect is a digital traceability platform that tracks cotton and raw materials at key stages, enhancing supply chain transparency. It offers near real-time data capture and farm-level traceability to strengthen supply chain resilience in the textile sector.`,
+    description: `TraceBale by CottonConnect is a digital traceability platform that tracks cotton and raw materials at key stages, enhancing supply chain transparency.`,
     url: "https://tracebale.com/",
     path: "/work/tracebale",
     image: "/images/projects/project-01/Tracebale-1.jpg",
@@ -392,6 +435,13 @@ const projects = [
     path: "/work/10x-traders",
     image: "/images/projects/project-01/10xTraders-1.jpg",
   },
+   {
+    title: "docx-templer (NPM)",
+    description: `docx-templer is a high-performance Node.js library for merging and embedding DOCX documents using simple placeholders, designed to be fast, reliable, and safe against Word XML pitfalls.`,
+    url: "https://www.npmjs.com/package/docx-templer",
+    path: "/work/docx-templer",
+    image: "/images/gallery/Node.png",
+  },
     {
     title: "eSimPro",
     description: `One-stop platform for hassle-free global connectivity. Explore a range of eSim data packages, ensuring seamless, secure connections for travelers worldwide. Stay connected effortlessly with eSim Pro.`,
@@ -437,6 +487,12 @@ const projects = [
 ]
 
 const expertise = [
+  {
+    title: "AI & Agents",
+    description: `Building intelligent workflows and autonomous agents using LLMs, LangChain, and LangGraph with Vector Databases for Retrieval-Augmented Generation (RAG).`,
+    url: "https://www.langchain.com/",
+    image: "/images/gallery/Node.png",
+  },
   {
     title: "React JS",
     description: `React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript.`,
