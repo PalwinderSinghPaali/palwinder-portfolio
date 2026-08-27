@@ -121,8 +121,8 @@ const about = {
             height: 9,
           },
           {
-            src: "/images/projects/project-01/Nerddnest-1.jpg",
-            alt: "Nerddnest",
+            src: "/images/projects/project-01/Auralaw_1.png",
+            alt: "AuraLaw",
             width: 16,
             height: 9,
           },
@@ -336,19 +336,19 @@ const projects = [
     image: "/images/projects/project-01/Auralaw_1.png",
   },
   {
+    title: "TraceBale",
+    description: `TraceBale by CottonConnect is a digital traceability platform that tracks cotton and raw materials at key stages, enhancing supply chain transparency.`,
+    url: "https://tracebale.com/",
+    path: "/work/tracebale",
+    image: "/images/projects/project-01/Tracebale-1.jpg",
+  },
+  {
     title: "TraderEdge",
     description: `TraderEdge is a backtesting and strategy analysis tool designed for traders to refine and test their trading strategies using historical market data.`,
     url: "https://traderedge.app/",
     path: "/work/traderedge",
     // Images from https://pexels.com
     image: "/images/projects/project-01/TraderEdge-1.jpg",
-  },
-  {
-    title: "TraceBale",
-    description: `TraceBale by CottonConnect is a digital traceability platform that tracks cotton and raw materials at key stages, enhancing supply chain transparency.`,
-    url: "https://tracebale.com/",
-    path: "/work/tracebale",
-    image: "/images/projects/project-01/Tracebale-1.jpg",
   },
   {
     title: "Donkey",
@@ -365,12 +365,12 @@ const projects = [
     image: "/images/projects/project-01/imaginarium-main-1.png",
   },
   {
-    title: "MietWohl",
-    description: `At mietWohl, various tenants from all over Germany will answer your questions about whether the new environment and surroundings match your expectations of a new rental apartment. `,
-    url: "http://212.132.98.168/home",
-    path: "/work/mietwohl",
-    image: "/images/projects/project-01/MietWohl-1.jpg",
-  },
+   title: "Omnii FPS",
+   description: `Omnii is a document assembly platform for fire protection services that compiles modular Word files into unified proposals and uses AI to extract metadata.`,
+   url: "https://fire-fee-forge.lovable.app/",
+   path: "/work/omnii",
+   image: "/images/projects/project-01/Omnii_3.png",
+ },
   {
     title: "Aife - Art Is For Everyone",
     description: `Discover unique artworks from talented artists. Browse our curated collection of contemporary art.`,
@@ -378,12 +378,12 @@ const projects = [
     path: "/work/aife",
     image: "/images/projects/project-01/aife-1.png",
   },
-   {
-    title: "Omnii FPS",
-    description: `Omnii is a document assembly platform for fire protection services that compiles modular Word files into unified proposals and uses AI to extract metadata.`,
-    url: "https://fire-fee-forge.lovable.app/",
-    path: "/work/omnii",
-    image: "/images/projects/project-01/Omnii_3.png",
+  {
+    title: "MietWohl",
+    description: `At mietWohl, various tenants from all over Germany will answer your questions about whether the new environment and surroundings match your expectations of a new rental apartment. `,
+    url: "https://mietwohl.de/",
+    path: "/work/mietwohl",
+    image: "/images/projects/project-01/MietWohl-1.jpg",
   },
   {
     title: "10xTraders.AI",
