@@ -100,13 +100,13 @@ export default function Home() {
         </Column>
       </Column>
       <RevealFx translateY="16" delay={0.6}>
-        <Projects range={[1, 4]} />
+        <Projects range={[1, 5]} />
       </RevealFx>
       {/* <RevealFx translateY="16" delay={0.6}>
         <ProjectCrousel range={[1, 2]} />
       </RevealFx> */}
       <RevealFx translateY="16" delay={0.6}>
-        <TechStack range={[1, 4]} />
+        <TechStack range={[1, 5]} />
       </RevealFx>
 
       {newsletter.display && <Mailchimp newsletter={newsletter} />}

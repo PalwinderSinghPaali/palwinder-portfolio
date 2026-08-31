@@ -491,7 +491,7 @@ const expertise = [
     title: "AI & Agents",
     description: `Building intelligent workflows and autonomous agents using LLMs, LangChain, and LangGraph with Vector Databases for Retrieval-Augmented Generation (RAG).`,
     url: "https://www.langchain.com/",
-    image: "/images/gallery/Node.png",
+    image: "/images/gallery/AI_LLM.png",
   },
   {
     title: "React JS",
