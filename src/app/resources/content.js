@@ -386,6 +386,13 @@ const projects = [
     image: "/images/projects/project-01/Tracebale-1.jpg",
   },
   {
+    title: "Imaginarium",
+    description: `Professional AI writing software with story development tools, character creation, and collaboration features. Trusted by professional creators.`,
+    url: "https://imaginarium.page/",
+    path: "/work/imaginarium",
+    image: "/images/projects/project-01/imaginarium-main-1.png",
+  },
+  {
     title: "TraderEdge",
     description: `TraderEdge is a backtesting and strategy analysis tool designed for traders to refine and test their trading strategies using historical market data.`,
     url: "https://traderedge.app/",
@@ -399,13 +406,6 @@ const projects = [
     url: "https://donkey.to/",
     path: "/work/donkey",
     image: "/images/projects/project-01/Donkey-1.jpg",
-  },
-  {
-    title: "Imaginarium",
-    description: `Professional AI writing software with story development tools, character creation, and collaboration features. Trusted by professional creators.`,
-    url: "https://imaginarium.page/",
-    path: "/work/imaginarium",
-    image: "/images/projects/project-01/imaginarium-main-1.png",
   },
   {
    title: "Omnii FPS",
@@ -499,17 +499,17 @@ const expertise = [
     url: "https://react.dev/",
     image: "/images/gallery/React.png",
   },
+    {
+    title: "Node JS",
+    description: `Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. A fast and scalable runtime for building backend applications using JavaScript.`,
+    url: "https://nodejs.org/en",
+    image: "/images/gallery/Node.png",
+  },
   {
     title: "Next.js",
     description: `Next.js is a React framework for building full-stack web applications. It enables server-side rendering, static site generation, and optimized performance.`,
     url: "https://nextjs.org/",
     image: "/images/gallery/nextjs.jpeg",
-  },
-  {
-    title: "Node JS",
-    description: `Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. A fast and scalable runtime for building backend applications using JavaScript.`,
-    url: "https://nodejs.org/en",
-    image: "/images/gallery/Node.png",
   },
   {
     title: "PostgreSQL",
